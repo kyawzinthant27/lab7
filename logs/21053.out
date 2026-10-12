@@ -1,0 +1,9 @@
+=== Host ===
+Job executed on: gpu01.slurm.cpe.kmutt.ac.th
+Job started on: Mon Oct 12 05:15:42 PM +07 2026
+=== Python ===
+Python executable location: /storage/slurm/home/68070701622@cpe.kmutt.ac.th/deep_learning/env_dl/bin/python
+Python version: Python 3.12.3
+=== GPU ===
+Failed to initialize NVML: Driver/library version mismatch
+NVML library version: 580.178

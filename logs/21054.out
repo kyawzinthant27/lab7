@@ -1,0 +1,86 @@
+=== Host ===
+Job executed on: gpu04.slurm.cpe.kmutt.ac.th
+Job started on: Mon Oct 12 05:17:14 PM +07 2026
+=== Python ===
+Python executable location: /storage/slurm/home/68070701622@cpe.kmutt.ac.th/deep_learning/env_dl/bin/python
+Python version: Python 3.12.3
+=== GPU ===
+Mon Oct 12 17:17:14 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 4070 Ti     Off |   00000000:00:10.0 Off |                  N/A |
+|  0%   33C    P8             13W /  285W |      15MiB /  12282MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A            2635      G   /usr/lib/xorg/Xorg                        4MiB |
++-----------------------------------------------------------------------------------------+
+=== Execution ===
+2026-10-12 17:17:37,899 INFO : Loading configs...
+2026-10-12 17:17:37,907 INFO : 	Running with manual seed an deterministic algorithms...
+2026-10-12 17:17:37,972 INFO : Loading dataset...
+2026-10-12 17:17:41,178 INFO : Defining model
+2026-10-12 17:17:41,232 INFO : Begin training for 50 epochs...
+2026-10-12 17:17:46,559 INFO : 	Epoch: 1 | Loss: 2.349
+2026-10-12 17:17:47,410 INFO : 	Epoch: 2 | Loss: 2.586
+2026-10-12 17:17:48,273 INFO : 	Epoch: 3 | Loss: 2.700
+2026-10-12 17:17:49,115 INFO : 	Epoch: 4 | Loss: 1.791
+2026-10-12 17:17:49,974 INFO : 	Epoch: 5 | Loss: 2.347
+2026-10-12 17:17:50,828 INFO : 	Epoch: 6 | Loss: 1.080
+2026-10-12 17:17:51,681 INFO : 	Epoch: 7 | Loss: 0.597
+2026-10-12 17:17:52,535 INFO : 	Epoch: 8 | Loss: 2.334
+2026-10-12 17:17:53,371 INFO : 	Epoch: 9 | Loss: 1.331
+2026-10-12 17:17:54,212 INFO : 	Epoch: 10 | Loss: 1.705
+2026-10-12 17:17:55,060 INFO : 	Epoch: 11 | Loss: 1.089
+2026-10-12 17:17:55,916 INFO : 	Epoch: 12 | Loss: 1.078
+2026-10-12 17:17:56,752 INFO : 	Epoch: 13 | Loss: 1.161
+2026-10-12 17:17:57,599 INFO : 	Epoch: 14 | Loss: 0.552
+2026-10-12 17:17:58,455 INFO : 	Epoch: 15 | Loss: 0.367
+2026-10-12 17:17:59,307 INFO : 	Epoch: 16 | Loss: 0.522
+2026-10-12 17:18:00,169 INFO : 	Epoch: 17 | Loss: 0.980
+2026-10-12 17:18:01,020 INFO : 	Epoch: 18 | Loss: 1.010
+2026-10-12 17:18:01,866 INFO : 	Epoch: 19 | Loss: 0.146
+2026-10-12 17:18:02,720 INFO : 	Epoch: 20 | Loss: 0.198
+2026-10-12 17:18:03,580 INFO : 	Epoch: 21 | Loss: 0.482
+2026-10-12 17:18:04,422 INFO : 	Epoch: 22 | Loss: 0.204
+2026-10-12 17:18:05,266 INFO : 	Epoch: 23 | Loss: 0.162
+2026-10-12 17:18:06,110 INFO : 	Epoch: 24 | Loss: 0.223
+2026-10-12 17:18:06,937 INFO : 	Epoch: 25 | Loss: 0.144
+2026-10-12 17:18:07,764 INFO : 	Epoch: 26 | Loss: 0.191
+2026-10-12 17:18:08,627 INFO : 	Epoch: 27 | Loss: 0.104
+2026-10-12 17:18:09,472 INFO : 	Epoch: 28 | Loss: 1.115
+2026-10-12 17:18:10,326 INFO : 	Epoch: 29 | Loss: 0.073
+2026-10-12 17:18:11,186 INFO : 	Epoch: 30 | Loss: 0.151
+2026-10-12 17:18:12,042 INFO : 	Epoch: 31 | Loss: 0.550
+2026-10-12 17:18:12,878 INFO : 	Epoch: 32 | Loss: 0.196
+2026-10-12 17:18:13,716 INFO : 	Epoch: 33 | Loss: 0.001
+2026-10-12 17:18:14,579 INFO : 	Epoch: 34 | Loss: 0.178
+2026-10-12 17:18:15,441 INFO : 	Epoch: 35 | Loss: 0.104
+2026-10-12 17:18:16,292 INFO : 	Epoch: 36 | Loss: 0.013
+2026-10-12 17:18:17,130 INFO : 	Epoch: 37 | Loss: 0.115
+2026-10-12 17:18:17,983 INFO : 	Epoch: 38 | Loss: 0.001
+2026-10-12 17:18:18,835 INFO : 	Epoch: 39 | Loss: 0.049
+2026-10-12 17:18:19,675 INFO : 	Epoch: 40 | Loss: 0.895
+2026-10-12 17:18:20,535 INFO : 	Epoch: 41 | Loss: 0.001
+2026-10-12 17:18:21,379 INFO : 	Epoch: 42 | Loss: 0.101
+2026-10-12 17:18:22,242 INFO : 	Epoch: 43 | Loss: 0.020
+2026-10-12 17:18:23,090 INFO : 	Epoch: 44 | Loss: 0.036
+2026-10-12 17:18:23,938 INFO : 	Epoch: 45 | Loss: 0.393
+2026-10-12 17:18:24,784 INFO : 	Epoch: 46 | Loss: 0.255
+2026-10-12 17:18:25,609 INFO : 	Epoch: 47 | Loss: 0.059
+2026-10-12 17:18:26,439 INFO : 	Epoch: 48 | Loss: 0.090
+2026-10-12 17:18:27,262 INFO : 	Epoch: 49 | Loss: 0.041
+2026-10-12 17:18:28,105 INFO : 	Epoch: 50 | Loss: 0.029
+2026-10-12 17:18:28,105 INFO : Training completed
+2026-10-12 17:18:28,105 INFO : Begin evaluation...
+2026-10-12 17:18:28,328 INFO : Accuracy of the network on the test images: 69.11%
